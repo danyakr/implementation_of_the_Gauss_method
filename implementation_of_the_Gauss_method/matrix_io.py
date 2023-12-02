@@ -19,10 +19,10 @@ class MyList(list):
 
 # Data that can be used to test the code
 matrix = [
-    [5, 7, 6, 5, 23.1],
-    [7, 10, 8, 7, 32.1],
-    [6, 8, 10, 9, 33.1],
-    [5, 7, 9, 10, 31.1]
+    [5, 7, 6, 5, 23],
+    [7, 10, 8, 7, 32],
+    [6, 8, 10, 9, 33],
+    [5, 7, 9, 10, 31]
 ]
 
 matrix2 = [
@@ -86,7 +86,7 @@ def enter_update_matrix():
     n: int, the size of the matrix
     """
     n = int(input('Введите размер матрицы: '))
-    print('Введите расширенную матрицу системы (по строкам, элементы вводите через пробел): n')
+    print('Введите расширенную матрицу системы (по строкам, элементы вводите через пробел): ')
     matrix = MyList([MyList([0] * (n + 1)) for _ in range(n)])
 
     for i in range(1, n + 1):
@@ -154,7 +154,7 @@ def enter_matrix():
     The elements should be entered separated by spaces, row by row.
     """
     n = int(input('Введите размер матрицы: '))
-    print('Введите расширенную матрицу системы (по строкам, элементы вводите через пробел): n')
+    print('Введите расширенную матрицу системы (по строкам, элементы вводите через пробел): ')
     matrix = [[0] * (n + 1) for _ in range(n)]
 
     for i in range(n):
