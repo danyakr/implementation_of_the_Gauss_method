@@ -1,2 +1,27 @@
-# implementation_of_the_Gauss_method
-This repository implements several modifications of the Gaussian method, namely: the Gaussian method of sequential elimination by columns, the Gaussian method of optimal elimination of unknowns and the Gauss-Jordan method. Each of these methods is presented in two copies: the first algorithm uses classic Python lists, and the second implements the same algorithm, but through lists whose indexing starts from 1 rather than 0. This makes it easier and more familiar to work with a matrix, from a mathematical point of view, it is more convenient to understand the operation of the algorithm and change it as necessary.
+# Implementation of the Gauss Method
+
+This repository implements various modifications of the Gaussian method, including:
+- Gaussian method of sequential elimination by columns
+- Gaussian method of optimal elimination of unknowns
+- Gauss-Jordan method
+
+Each method is implemented in two versions:
+- The first version uses standard Python lists
+- The second version utilizes lists with an indexing starting from 1 instead of 0
+
+This indexing adjustment aims to enhance the ease of working with matrices, making it more intuitive from a mathematical perspective. It facilitates understanding the algorithm's operation and allows for easier modifications if needed.
+
+---
+
+# Реализация метода Гаусса
+
+Этот репозиторий реализует несколько модификаций метода Гаусса, а именно:
+- Метод последовательного исключения по столбцам
+- Оптимальный метод Гаусса для исключения неизвестных
+- Метод Гаусса-Жордана
+
+Каждый из этих методов представлен в двух вариантах:
+- Первый алгоритм использует стандартные списки Python
+- Второй реализует тот же алгоритм, но через списки, индексация которых начинается с 1 вместо 0
+
+Это облегчает и делает более привычной работу с матрицами, что позволяет лучше понимать работу алгоритма и вносить изменения при необходимости.
