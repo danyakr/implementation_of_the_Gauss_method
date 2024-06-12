@@ -1,4 +1,4 @@
-# Implementation of the Gauss Method
+# Implementation of the Gauss Methods
 
 This repository implements various modifications of the Gaussian method, including:
 - Gaussian method of sequential elimination by columns
@@ -13,7 +13,7 @@ This indexing adjustment aims to enhance the ease of working with matrices, maki
 
 ---
 
-# Реализация метода Гаусса
+# Реализация методов Гаусса
 
 Этот репозиторий реализует несколько модификаций метода Гаусса, а именно:
 - Метод последовательного исключения по столбцам
